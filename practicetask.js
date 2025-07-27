@@ -63,3 +63,33 @@
 // isNaN("11") will try to convert the string value into integer, and it will find a number is 11 so 11 is a number then result will show false;
 
 // isNaN (2-10) is equal to -8 is a valid number so result will print false also.
+
+
+
+// Max Min Number find
+
+
+var num1 = 25;
+var num2 = 29;
+var num3 = 105;
+var num4 = 15;
+var num5 = 755;
+var num6 = 955;
+var num7 = 215;
+var num8 = 171;
+var num9 = 2154;
+var num10 = 5541;
+var num11 = 9745;
+console.log(Math.max(num1, num2, num3, num4, num5));
+console.log("Min number is:",Math.min(num6, num7, num10, num9, num11));
+console.log("Min number is: " + Math.min(num6, num7, num10, num9, num11));
+console.log(`Min number is: ${Math.min(num6, num7, num10, num9, num11)}`);
+
+
+// Mobile numbers total
+
+var mobileNumbersTotal = 1+6+1+1+2+2+6+7;
+console.log(mobileNumbersTotal);
+
+
+ 
